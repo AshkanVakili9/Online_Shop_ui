@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @NoobstrGTR
 - 👀 I’m interested in ... Wep Development Backend
-- 🌱 I’m currently learning ... Java Script and Django_Python
+- 🌱 I’m currently learning ... Django_Python
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ... ascendp07@gmail.com
 
