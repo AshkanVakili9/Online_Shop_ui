@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @NoobstrGTR
-- 👀 I’m interested in ... Wep Development Backend
+- 👀 I’m interested in ... Backend Wep Development 
 - 🌱 I’m currently learning ... Django_Python
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ... ascendp07@gmail.com
