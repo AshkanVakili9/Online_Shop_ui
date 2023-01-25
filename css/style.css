@@ -1,0 +1,296 @@
+*{
+    font-family: Roboto, serif;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #F8F9FB;
+}
+a{
+    color: #444;
+    text-decoration: none;
+    font-size: 22px;
+}
+.align-center{
+    text-align: center;
+}
+.align-end{
+    text-align: end;
+}
+
+header{
+    padding: 20px 0;
+}
+header .logo a.logo-nr{
+    display: inline-block;
+    color: white;
+    letter-spacing: -4px;
+    font-size: 26px;
+    background-color: cadetblue;
+    padding:  15px 15px 15px ;
+    border-radius: 50%;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+header .logo a.shopping-logo{
+   font-weight: bold;
+    font-size: 24px;
+}
+header .menu{
+    list-style: none;
+}
+header .menu > li{
+    display: inline-block;
+}
+header .menu >li > a{
+    padding: 20px 25px;
+    display: inline-block;
+    transition: all 300ms;
+}
+header .menu >li:hover{
+    background-color: skyblue;
+    transform: scale(.98,.98);
+    border-radius: 10px;
+}
+
+header .search{
+    background-color: #fff;
+    display: flex;
+    width: 59%;
+    padding: 10px 15px;
+    border-radius: 20px;
+    align-items: center;
+}
+header .search i{
+    color: #aaa;
+
+}
+
+header .search input{
+    border: 0;
+    width: 100%;
+    outline: none;
+    font-size: 18px;
+    padding: 0 10px;
+}
+header .search i.fa-bag-shopping{
+    border-left: 1px solid #aaa;
+    padding-left: 10px;
+}
+header .sing-in button{
+    border: 0;
+    background-color: cadetblue;
+    padding: 15px 40px;
+    border-radius: 40px;
+    transition: background-color 400ms;
+    font-size: 15px;
+}
+header .sing-in button:hover{
+    background-color: skyblue;
+    transform: scale(1.1,1.1);
+    color: white;
+}
+                               /*-----section-----*/
+
+section .prim-txt > h1 {
+    font-size: 70px;
+    text-align: center;
+    margin-top:  200px;
+}
+section .prim-txt h1 > span{
+    background-color: cadetblue;
+    border-radius: 50%;
+    margin: 3% auto;
+    display: block;
+    width: 30%;
+}
+section .prim-txt button{
+    border: 0;
+    background-color: cadetblue;
+    padding: 15px 40px;
+    border-radius: 40px;
+    transition: background-color 400ms;
+    cursor: pointer;
+    font-size: 22px;
+}
+section .prim-txt button:hover{
+    background-color: skyblue;
+    color: white;
+}
+section .prim-txt button > i {
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+section .prim-txt > a >i {
+    background-color: cadetblue;
+    padding: 10px 15px;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+section .prim-txt button:active{
+    transform: scale(0.98);
+}
+section .prim-txt i:hover{
+    background-color: skyblue;
+}
+section .prim-txt .box-3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+section .prim-txt .box-3 .box{
+    background-color: #fff;
+    padding: 35px;
+    box-shadow: 0 0 6px #aaa;
+    border-radius: 10px;
+    transition: all 300ms;
+}
+section .prim-txt .box-3 .box:hover{
+    background-color: cadetblue;
+    transform: scale(1.1);
+    color: white;
+}
+section .prim-txt .box-3 .box > h1{
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    cursor: default;
+}
+section .prim-txt .box-3 .box p{
+    margin-bottom: 0;
+    font-weight: bold;
+    cursor: default;
+}
+section .main-sec .box-three{
+    display: flex;
+    justify-content: space-between;
+}
+section .main-sec .box-three > .box{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0 0  5px  #ccc;
+}
+section .main-sec .box-three > .box img{
+    padding: 10px 0;
+}
+section .main-sec .box-three > .box span{
+    font-size: 15px;
+}
+section .main-sec .box-three > .box span.red-dis{
+    color: red;
+    margin-right: 4px;
+}
+section .main-sec .box-three p{
+    color: red;
+    margin: 0;
+}
+section .main-sec button{
+    border: 0;
+    background-color: cadetblue;
+    padding: 15px 40px;
+    border-radius: 40px;
+    transition: background-color 400ms;
+    cursor: pointer;
+    font-size: 22px;
+    margin-top: 20px ;
+}
+section .main-sec button:hover{
+    background-color: cadetblue;
+    color: white;
+}
+section .main-sec button:active{
+    transform: scale(0.98);
+}
+section .main-sec{
+    padding: 30px ;
+}
+section .main-sec .dress{
+    border-radius: 10px;
+    background: linear-gradient(to bottom,cadetblue,transparent);
+    margin: 0 20px;
+
+}
+section .main-sec .dress .txt-left{
+    float: left;
+}
+section .main-sec .dress .txt-right{
+    float: right;
+}
+
+section .main-sec .dress img{
+    padding: 20px;
+}
+section .main-sec .dress img:hover{
+    transform: scale(1.1,1.1);
+    transition: all 500ms;
+}
+section .main-sec .dress .dress-name{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 20px;
+}
+                               /*-----section2-----*/
+section .bg-sec2{
+    background: linear-gradient(to top, #3c3f41, transparent);
+    height: 100vh;
+}
+section .bg-sec2 .txt-main h3{
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 22px;
+}
+section .bg-sec2 .txt-main p{
+    font-family: Roboto;
+    font-size: 18px;
+}
+section .bg-sec2 .txt-main a{
+    color: #3c3f41;
+    transition: all 400ms;
+}
+section .bg-sec2 .txt-main a:hover{
+    transform: scale(1.1,1.1);
+    color: dodgerblue;
+}
+
+                               /*-----footer-----*/
+footer .container-fluid .bg-footer{
+    background: linear-gradient(to bottom,#3c3f41 , transparent);
+
+}
+footer .container-fluid .bg-footer h3{
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: white;
+}
+footer .container-fluid .bg-footer ul li a{
+    text-decoration: none;
+    color: #1f2024;
+    font-size: 20px;
+}
+footer .container-fluid .bg-footer ul li a:hover{
+    color: white ;
+    transition: all 400ms;
+}
+footer .container-fluid .bg-footer ul li{
+    list-style: none;
+    padding:  10px 0;
+}
+footer .container-fluid .bg-footer .first-ul{
+    padding: 20px 50px;
+    display: flex;
+
+}
+footer .container-fluid .bg-copy-right{
+    background: #333;
+}
+footer .container-fluid .bg-copy-right p{
+    font-size: 18px;
+    padding-left: 50px;
+    font-weight: bold;
+}
